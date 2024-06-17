@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'AWI-CM3 documentation'
-copyright = u'2020, Jan Streffing'
-author = u'Jan Streffing'
+project = u'CLIMBER-X_PDAF documentation'
+copyright = u'2024, Ahmadreza Masoum'
+author = u'Ahmadreza Masoum'
 
 # The short X.Y version
 version = u''
@@ -45,7 +45,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
-    'sphinx_rtd_theme',
+    
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -188,4 +188,3 @@ epub_exclude_files = ['search.html']
 todo_include_todos = True
 
 #html_style = 'css/style.css'     # Choosing my custom theme.
-
